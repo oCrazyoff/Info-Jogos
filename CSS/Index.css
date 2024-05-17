@@ -1,0 +1,22 @@
+        #conteudo{
+            background-color: rgb(69, 66, 66);
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #conteudo div{
+            margin: 1%;
+            background-color:grey;
+        }    
+        #conteudo div h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #conteudo div img{
+            object-fit: cover;
+        }
+        #conteudo img:hover{
+            transform: scale(1.05);
+            border-radius: 10px;
+            transition: 1s;
+        }
