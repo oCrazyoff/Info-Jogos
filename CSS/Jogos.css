@@ -1,0 +1,83 @@
+.subTitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.btnVoltar{
+    background-image: url(../Imagens/iconeVoltar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    width: 5%;
+    margin: 5px;
+    cursor:pointer;
+    border:none;
+    height: 50px;
+    width: 50px;
+}
+.btnVoltar:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.subCabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.conteudo {
+    background-color: rgb(73, 70, 70);
+    border-radius: 5px;
+    margin: 1%;
+    padding: 1%;
+}
+.conteudo img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-right: 1%;
+    float: left;
+    border-radius: 10px;
+}
+.conteudo p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 1%;
+    margin-left: 5%;
+    text-indent: 3%;
+}
+@media (max-width: 600px) {
+    .conteudo{
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .conteudo img{
+        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+    }
+    .conteudo p{
+        margin: 5%;
+        text-indent: 15%;
+        margin-bottom: 5%;
+    }
+    .subTitulo{
+        font-size: 25px;
+        height: 35px;
+    }
+    .btnVoltar{
+        height: 35px;
+        width: 35px;
+    }
+}
