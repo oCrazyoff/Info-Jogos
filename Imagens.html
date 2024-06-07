@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFO GAMES - Imagens</title>
     <link rel="stylesheet" href="CSS/Imagens.css">
     <link rel="stylesheet" href="CSS/Cabecalho.css">
+    <script src="JS/carousel.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPLPWZNVV"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-8QPLPWZNVV');
-</script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        
+        gtag('config', 'G-8QPLPWZNVV');
+    </script>
 </head>
+
 <body>
-    <table class= "cabecalho">
+    <table class="cabecalho">
         <tr>
-            <td class= "logoUni" width = "15%"></td>
-            <td class= "imgCabecalho"> <h1 class= "Titulo">IMAGENS</h1></td>
+            <td class="logoUni" width="15%"></td>
+            <td class="imgCabecalho">
+                <h1 class="Titulo">IMAGENS</h1>
+            </td>
         </tr>
     </table>
     <nav>
@@ -31,46 +36,81 @@
     </nav>
     <br>
     <h2 class="subTitulo">IMAGENS DOS JOGOS</h2>
-    <div class="corpo">
+    <br>
         <div class="conteudo">
             <div class="imagens">
                 <p>Grand Theft Auto V</p>
-                <img src="Imagens/imgJogos/gta1.png">
-                <img src="Imagens/imgJogos/gta2.png">
-                <img src="Imagens/imgJogos/gta3.png">
+                <div class="carousel-container">
+                    <button class="prevBtn">❮</button>
+                    <div class="carousel">
+                        <img src="Imagens/imgJogos/gta1.png" class="carousel-image active">
+                        <img src="Imagens/imgJogos/gta2.png" class="carousel-image">
+                        <img src="Imagens/imgJogos/gta3.png" class="carousel-image">
+                    </div>
+                    <button class="nextBtn">❯</button>
+                </div>
             </div>
             <div class="imagens">
                 <p>Valorant</p>
-                <img src="Imagens/imgJogos/valorant1.png">
-                <img src="Imagens/imgJogos/valorant2.png">
-                <img src="Imagens/imgJogos/valorant3.png">
+                <div class="carousel-container">
+                    <button class="prevBtn">❮</button>
+                    <div class="carousel">
+                        <img src="Imagens/imgJogos/valorant1.png" class="carousel-image active">
+                        <img src="Imagens/imgJogos/valorant2.png" class="carousel-image">
+                        <img src="Imagens/imgJogos/valorant3.png" class="carousel-image">
+                    </div>
+                    <button class="nextBtn">❯</button>
+                </div>
             </div>
             <div class="imagens">
                 <p>Counter-Strike 2</p>
-                <img src="Imagens/imgJogos/cs1.png">
-                <img src="Imagens/imgJogos/cs2.png">
-                <img src="Imagens/imgJogos/cs3.png">
+                <div class="carousel-container">
+                    <button class="prevBtn">❮</button>
+                    <div class="carousel">
+                        <img src="Imagens/imgJogos/cs1.png" class="carousel-image active">
+                        <img src="Imagens/imgJogos/cs2.png" class="carousel-image">
+                        <img src="Imagens/imgJogos/cs3.png" class="carousel-image">
+                    </div>
+                    <button class="nextBtn">❯</button>
+                </div>
             </div>
             <div class="imagens">
                 <p>Red Dead Redemption 2</p>
-                <img src="Imagens/imgJogos/red1.png">
-                <img src="Imagens/imgJogos/red2.png">
-                <img src="Imagens/imgJogos/red3.png">
+                <div class="carousel-container">
+                    <button class="prevBtn">❮</button>
+                    <div class="carousel">
+                        <img src="Imagens/imgJogos/red1.png" class="carousel-image active">
+                        <img src="Imagens/imgJogos/red2.png" class="carousel-image">
+                        <img src="Imagens/imgJogos/red3.png" class="carousel-image">
+                    </div>
+                    <button class="nextBtn">❯</button>
+                </div>
             </div>
             <div class="imagens">
                 <p>Days Gone</p>
-                <img src="Imagens/imgJogos/daysgone1.png">
-                <img src="Imagens/imgJogos/daysgone2.png">
-                <img src="Imagens/imgJogos/daysgone3.png">
+                <div class="carousel-container">
+                    <button class="prevBtn">❮</button>
+                    <div class="carousel">
+                        <img src="Imagens/imgJogos/daysgone1.png" class="carousel-image active">
+                        <img src="Imagens/imgJogos/daysgone2.png" class="carousel-image">
+                        <img src="Imagens/imgJogos/daysgone3.png" class="carousel-image">
+                    </div>
+                    <button class="nextBtn">❯</button>
+                </div>
             </div>
             <div class="imagens">
                 <p>Dayz</p>
-                <img src="Imagens/imgJogos/day1.png">
-                <img src="Imagens/imgJogos/day2.png">
-                <img src="Imagens/imgJogos/day3.png">
+                <div class="carousel-container">
+                    <button class="prevBtn">❮</button>
+                    <div class="carousel">
+                        <img src="Imagens/imgJogos/day1.png" class="carousel-image active">
+                        <img src="Imagens/imgJogos/day2.png" class="carousel-image">
+                        <img src="Imagens/imgJogos/day3.png" class="carousel-image">
+                    </div>
+                    <button class="nextBtn">❯</button>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 <br>
 <footer class="rodape">
@@ -78,4 +118,5 @@
     <p>Ruan Parreira - 5162636</p>
     <p>Leandro Arantes - 5161744</p>
 </footer>
+
 </html>

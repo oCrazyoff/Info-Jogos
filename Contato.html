@@ -7,6 +7,7 @@
     <title>INFO GAMES - Contato</title>
     <link rel="stylesheet" href="CSS/Contato.css">
     <link rel="stylesheet" href="CSS/Cabecalho.css">
+    <script defer src="JS/form.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPLPWZNVV"></script>
     <script>
@@ -40,7 +41,6 @@
                         <h1>FALE CONOSCO NO WHATSAPP</h1>
                     </div>
                 </div>
-
                 <div class="input-group">
                     <div class="input-box">
                         <label for="firstname">Nome</label>
@@ -53,12 +53,12 @@
                     </div>
 
                     <div class="input-box">
-                        <label for="number">Celular</label>
-                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required/>
+                        <label for="mensagem">Mensagem</label>
+                        <input id="mensagem" type="text" name="mensagem" placeholder="Sua mensagem" required/>
                     </div>
                 </div>
                 <div class="continue-button">
-                    <button><a target="_blank" href="https://wa.me/5516992947779?text=Vou%20entrar%20em%20contato">Enviar</a></button>
+                    <button id="enviar">Enviar</button>
                 </div>
             </form>
         </div>
