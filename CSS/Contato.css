@@ -10,7 +10,7 @@ body {
 h1{
     color: #333;
     text-align: center;
-    padding: 20px 0;
+    padding: 1%;
 }
 
 .container{
@@ -88,6 +88,7 @@ h1{
 
 .continue-button button{
     width: 100%;
+    color: white;
     margin-top: 2.5rem;
     border: none;
     background-color: #33963b;
@@ -107,11 +108,23 @@ h1{
     font-weight: 500;
     color: #fff;
 }
-
+.title img{
+    width: 20%;
+    height: 100%;
+    margin-right: 5%;
+}
+.title{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
 @media screen and (max-width: 1064px){
     .container {
         margin: 0%;
         height: auto;
+    }
+    .form{
+        border-radius: 0;
     }
     .title img{
         display: none;
@@ -138,15 +151,5 @@ h1{
     .gender-input{
         margin-top: 0.5rem;
     }
-}
-
-.title img{
-    width: 25%;
-    height: 100%;
-}
-.title{
-    display: flex;
-    width: 100%;
-    height: 120px;
 }
     

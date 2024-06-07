@@ -58,7 +58,7 @@
 @media (max-width: 600px) {
     .conteudo{
         margin: 0;
-        padding: 0;
+        padding: 1%;
         border-radius: 0;
     }
     .conteudo img{
@@ -73,7 +73,7 @@
         margin-bottom: 5%;
     }
     .subTitulo{
-        font-size: 25px;
+        font-size: 20px;
         height: 35px;
     }
     .btnVoltar{
