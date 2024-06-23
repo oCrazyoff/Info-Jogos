@@ -130,7 +130,7 @@ h1{
         display: none;
     }
     .form-header h1::after{
-        width: 285px;
+        width: 75%;
     }
     .input-group {
         flex-direction: column;
